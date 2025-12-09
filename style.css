@@ -1,0 +1,99 @@
+/* ---------- GLOBAL STYLES ---------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #2067d1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2 {
+    color: #222;
+    text-align: center;
+    color: ;
+}
+
+p, li, label {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ---------- IMAGES ---------- */
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* ---------- LISTS ---------- */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* ---------- LINKS ---------- */
+a {
+    color: #0066ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- TABLE ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #f0f0f0;
+}
+
+/* ---------- FORM ---------- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    background: #0066ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background: #0047b3;
+}
